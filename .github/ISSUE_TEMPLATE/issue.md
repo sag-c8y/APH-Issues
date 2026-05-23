@@ -1,7 +1,6 @@
 name: APH Issue Form
 description: Create a structured issue with required fields
-title: "[ISSUE] "
-labels: []
+
 
 body:
   - type: textarea
