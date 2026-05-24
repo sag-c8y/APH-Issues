@@ -9,7 +9,7 @@ body:
     id: representatives
     attributes:
       label: Representatives
-      description: List representatives, stakeholders, or involved parties
+      description: List of representatives and unit number
       placeholder: |
         - Name:
         - Role:
