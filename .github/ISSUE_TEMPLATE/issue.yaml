@@ -4,6 +4,19 @@ title: "[ISSUE] "
 labels: []
 
 body:
+
+  - type: textarea
+    id: representatives
+    attributes:
+      label: Representatives
+      description: List representatives, stakeholders, or involved parties
+      placeholder: |
+        - Name:
+        - Role:
+        - Contact/Reference:
+    validations:
+      required: true
+      
   - type: textarea
     id: description
     attributes:
@@ -28,18 +41,6 @@ body:
       label: Owners Stance
       description: Describe the owner's position, decision, or response
       placeholder: Enter owner's stance...
-    validations:
-      required: true
-
-  - type: textarea
-    id: representatives
-    attributes:
-      label: Representatives
-      description: List representatives, stakeholders, or involved parties
-      placeholder: |
-        - Name:
-        - Role:
-        - Contact/Reference:
     validations:
       required: true
 
